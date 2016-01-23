@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB651E61C49E9C70042D280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB651E51C49E9C70042D280 /* main.m */; };
+		CEB651E91C49E9C70042D280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB651E81C49E9C70042D280 /* AppDelegate.m */; };
+		CEB651EF1C49E9C70042D280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB651ED1C49E9C70042D280 /* Main.storyboard */; };
+		CEB651F11C49E9C70042D280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB651F01C49E9C70042D280 /* Assets.xcassets */; };
+		CEB651F41C49E9C70042D280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB651F21C49E9C70042D280 /* LaunchScreen.storyboard */; };
+		CEB651FF1C49E9C70042D280 /* IdleTimeoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB651FE1C49E9C70042D280 /* IdleTimeoutDemoTests.m */; };
+		CEB6520A1C49E9C70042D280 /* IdleTimeoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB652091C49E9C70042D280 /* IdleTimeoutDemoUITests.m */; };
+		CEB6521C1C49EB220042D280 /* IdleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB6521B1C49EB220042D280 /* IdleWindow.m */; };
+		CEB6521F1C49EC400042D280 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB6521E1C49EC400042D280 /* MainViewController.m */; };
+		CEB652221C49EC550042D280 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB652211C49EC550042D280 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB651FB1C49E9C70042D280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB651D91C49E9C70042D280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB651E01C49E9C70042D280;
+			remoteInfo = IdleTimeoutDemo;
+		};
+		CEB652061C49E9C70042D280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB651D91C49E9C70042D280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB651E01C49E9C70042D280;
+			remoteInfo = IdleTimeoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB651E11C49E9C70042D280 /* IdleTimeoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdleTimeoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB651E51C49E9C70042D280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB651E71C49E9C70042D280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB651E81C49E9C70042D280 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB651EE1C49E9C70042D280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB651F01C49E9C70042D280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB651F31C49E9C70042D280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB651F51C49E9C70042D280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB651FA1C49E9C70042D280 /* IdleTimeoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleTimeoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB651FE1C49E9C70042D280 /* IdleTimeoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdleTimeoutDemoTests.m; sourceTree = "<group>"; };
+		CEB652001C49E9C70042D280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB652051C49E9C70042D280 /* IdleTimeoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleTimeoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB652091C49E9C70042D280 /* IdleTimeoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdleTimeoutDemoUITests.m; sourceTree = "<group>"; };
+		CEB6520B1C49E9C70042D280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB6521A1C49EB220042D280 /* IdleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdleWindow.h; path = utils/window/IdleWindow.h; sourceTree = "<group>"; };
+		CEB6521B1C49EB220042D280 /* IdleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IdleWindow.m; path = utils/window/IdleWindow.m; sourceTree = "<group>"; };
+		CEB6521D1C49EC400042D280 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = controller/MainViewController.h; sourceTree = "<group>"; };
+		CEB6521E1C49EC400042D280 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = controller/MainViewController.m; sourceTree = "<group>"; };
+		CEB652201C49EC550042D280 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = controller/LoginViewController.h; sourceTree = "<group>"; };
+		CEB652211C49EC550042D280 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = controller/LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB651DE1C49E9C70042D280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB651F71C49E9C70042D280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB652021C49E9C70042D280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB651D81C49E9C70042D280 = {
+			isa = PBXGroup;
+			children = (
+				CEB651E31C49E9C70042D280 /* IdleTimeoutDemo */,
+				CEB651FD1C49E9C70042D280 /* IdleTimeoutDemoTests */,
+				CEB652081C49E9C70042D280 /* IdleTimeoutDemoUITests */,
+				CEB651E21C49E9C70042D280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB651E21C49E9C70042D280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB651E11C49E9C70042D280 /* IdleTimeoutDemo.app */,
+				CEB651FA1C49E9C70042D280 /* IdleTimeoutDemoTests.xctest */,
+				CEB652051C49E9C70042D280 /* IdleTimeoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB651E31C49E9C70042D280 /* IdleTimeoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEB652181C49EAB10042D280 /* utils */,
+				CEB652171C49E9ED0042D280 /* controller */,
+				CEB651E41C49E9C70042D280 /* Supporting Files */,
+			);
+			path = IdleTimeoutDemo;
+			sourceTree = "<group>";
+		};
+		CEB651E41C49E9C70042D280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB651E71C49E9C70042D280 /* AppDelegate.h */,
+				CEB651E81C49E9C70042D280 /* AppDelegate.m */,
+				CEB651ED1C49E9C70042D280 /* Main.storyboard */,
+				CEB651F01C49E9C70042D280 /* Assets.xcassets */,
+				CEB651F21C49E9C70042D280 /* LaunchScreen.storyboard */,
+				CEB651F51C49E9C70042D280 /* Info.plist */,
+				CEB651E51C49E9C70042D280 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB651FD1C49E9C70042D280 /* IdleTimeoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB651FE1C49E9C70042D280 /* IdleTimeoutDemoTests.m */,
+				CEB652001C49E9C70042D280 /* Info.plist */,
+			);
+			path = IdleTimeoutDemoTests;
+			sourceTree = "<group>";
+		};
+		CEB652081C49E9C70042D280 /* IdleTimeoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB652091C49E9C70042D280 /* IdleTimeoutDemoUITests.m */,
+				CEB6520B1C49E9C70042D280 /* Info.plist */,
+			);
+			path = IdleTimeoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		CEB652171C49E9ED0042D280 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6521D1C49EC400042D280 /* MainViewController.h */,
+				CEB6521E1C49EC400042D280 /* MainViewController.m */,
+				CEB652201C49EC550042D280 /* LoginViewController.h */,
+				CEB652211C49EC550042D280 /* LoginViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		CEB652181C49EAB10042D280 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEB652191C49EABA0042D280 /* window */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		CEB652191C49EABA0042D280 /* window */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6521A1C49EB220042D280 /* IdleWindow.h */,
+				CEB6521B1C49EB220042D280 /* IdleWindow.m */,
+			);
+			name = window;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB651E01C49E9C70042D280 /* IdleTimeoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB6520E1C49E9C70042D280 /* Build configuration list for PBXNativeTarget "IdleTimeoutDemo" */;
+			buildPhases = (
+				CEB651DD1C49E9C70042D280 /* Sources */,
+				CEB651DE1C49E9C70042D280 /* Frameworks */,
+				CEB651DF1C49E9C70042D280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IdleTimeoutDemo;
+			productName = IdleTimeoutDemo;
+			productReference = CEB651E11C49E9C70042D280 /* IdleTimeoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB651F91C49E9C70042D280 /* IdleTimeoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB652111C49E9C70042D280 /* Build configuration list for PBXNativeTarget "IdleTimeoutDemoTests" */;
+			buildPhases = (
+				CEB651F61C49E9C70042D280 /* Sources */,
+				CEB651F71C49E9C70042D280 /* Frameworks */,
+				CEB651F81C49E9C70042D280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB651FC1C49E9C70042D280 /* PBXTargetDependency */,
+			);
+			name = IdleTimeoutDemoTests;
+			productName = IdleTimeoutDemoTests;
+			productReference = CEB651FA1C49E9C70042D280 /* IdleTimeoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB652041C49E9C70042D280 /* IdleTimeoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB652141C49E9C70042D280 /* Build configuration list for PBXNativeTarget "IdleTimeoutDemoUITests" */;
+			buildPhases = (
+				CEB652011C49E9C70042D280 /* Sources */,
+				CEB652021C49E9C70042D280 /* Frameworks */,
+				CEB652031C49E9C70042D280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB652071C49E9C70042D280 /* PBXTargetDependency */,
+			);
+			name = IdleTimeoutDemoUITests;
+			productName = IdleTimeoutDemoUITests;
+			productReference = CEB652051C49E9C70042D280 /* IdleTimeoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB651D91C49E9C70042D280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tjy;
+				TargetAttributes = {
+					CEB651E01C49E9C70042D280 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CEB651F91C49E9C70042D280 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEB651E01C49E9C70042D280;
+					};
+					CEB652041C49E9C70042D280 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEB651E01C49E9C70042D280;
+					};
+				};
+			};
+			buildConfigurationList = CEB651DC1C49E9C70042D280 /* Build configuration list for PBXProject "IdleTimeoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB651D81C49E9C70042D280;
+			productRefGroup = CEB651E21C49E9C70042D280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB651E01C49E9C70042D280 /* IdleTimeoutDemo */,
+				CEB651F91C49E9C70042D280 /* IdleTimeoutDemoTests */,
+				CEB652041C49E9C70042D280 /* IdleTimeoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB651DF1C49E9C70042D280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB651F41C49E9C70042D280 /* LaunchScreen.storyboard in Resources */,
+				CEB651F11C49E9C70042D280 /* Assets.xcassets in Resources */,
+				CEB651EF1C49E9C70042D280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB651F81C49E9C70042D280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB652031C49E9C70042D280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB651DD1C49E9C70042D280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6521C1C49EB220042D280 /* IdleWindow.m in Sources */,
+				CEB651E91C49E9C70042D280 /* AppDelegate.m in Sources */,
+				CEB651E61C49E9C70042D280 /* main.m in Sources */,
+				CEB6521F1C49EC400042D280 /* MainViewController.m in Sources */,
+				CEB652221C49EC550042D280 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB651F61C49E9C70042D280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB651FF1C49E9C70042D280 /* IdleTimeoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB652011C49E9C70042D280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6520A1C49E9C70042D280 /* IdleTimeoutDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB651FC1C49E9C70042D280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB651E01C49E9C70042D280 /* IdleTimeoutDemo */;
+			targetProxy = CEB651FB1C49E9C70042D280 /* PBXContainerItemProxy */;
+		};
+		CEB652071C49E9C70042D280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB651E01C49E9C70042D280 /* IdleTimeoutDemo */;
+			targetProxy = CEB652061C49E9C70042D280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB651ED1C49E9C70042D280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB651EE1C49E9C70042D280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB651F21C49E9C70042D280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB651F31C49E9C70042D280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB6520C1C49E9C70042D280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB6520D1C49E9C70042D280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB6520F1C49E9C70042D280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IdleTimeoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjy.IdleTimeoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB652101C49E9C70042D280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IdleTimeoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjy.IdleTimeoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEB652121C49E9C70042D280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IdleTimeoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjy.IdleTimeoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdleTimeoutDemo.app/IdleTimeoutDemo";
+			};
+			name = Debug;
+		};
+		CEB652131C49E9C70042D280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IdleTimeoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjy.IdleTimeoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IdleTimeoutDemo.app/IdleTimeoutDemo";
+			};
+			name = Release;
+		};
+		CEB652151C49E9C70042D280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IdleTimeoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjy.IdleTimeoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IdleTimeoutDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEB652161C49E9C70042D280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IdleTimeoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjy.IdleTimeoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IdleTimeoutDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB651DC1C49E9C70042D280 /* Build configuration list for PBXProject "IdleTimeoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB6520C1C49E9C70042D280 /* Debug */,
+				CEB6520D1C49E9C70042D280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB6520E1C49E9C70042D280 /* Build configuration list for PBXNativeTarget "IdleTimeoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB6520F1C49E9C70042D280 /* Debug */,
+				CEB652101C49E9C70042D280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB652111C49E9C70042D280 /* Build configuration list for PBXNativeTarget "IdleTimeoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB652121C49E9C70042D280 /* Debug */,
+				CEB652131C49E9C70042D280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB652141C49E9C70042D280 /* Build configuration list for PBXNativeTarget "IdleTimeoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB652151C49E9C70042D280 /* Debug */,
+				CEB652161C49E9C70042D280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB651D91C49E9C70042D280 /* Project object */;
+}
